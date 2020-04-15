@@ -33,7 +33,7 @@ $ npm start
 - Url: [http://localhost:3000/assets/posh.html](http://localhost:3000/assets/posh.html)
 - Check source code at [src/assets/posh.html](src/assets/posh.html) 
 
-### Screenshot
+## Screenshot
 Controls page loading
 ![loading](screenshots/controls_page.gif)
 
