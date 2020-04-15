@@ -14,7 +14,7 @@ export namespace ControlActions {
 
   export const loadControls = () => (dispatch: any) => {
     return sleep(1000).then(() => {
-      axios.get('assets/controls1.json')
+      axios.get('assets/controls.json')
         .then(result => {
           const {data: {data: controls}} = result;
           dispatch({
