@@ -23,27 +23,29 @@ $ npm ci
 $ npm start
 ```
 
-### Control page
+### Controld page
 
-Url: [http://localhost:3000/](http://localhost:3000/)
+- Url: [http://localhost:3000/](http://localhost:3000/)
+- Check source code at [src](src) folder
 
 ### Documentation page
 
-Url: [http://localhost:3000/assets/posh.html](http://localhost:3000/assets/posh.html)
+- Url: [http://localhost:3000/assets/posh.html](http://localhost:3000/assets/posh.html)
+- Check source code at [src/assets/posh.html](src/assets/posh.html) 
 
 ### Screenshot
-Loading
-![loading](screenshots/controls_page0.png)
-
-Controls page
-![controls page](screenshots/controls_page1.png)
-
-Error page
-![error page](screenshots/controls_page2.png)
+Controls page loading
+![loading](screenshots/controls_page.gif)
 
 Documentation
 ![documentation page](screenshots/documentation_page.gif)
 
+Controls page's error dialogue 
+![error page](screenshots/controls_page_error.png)
+
+
 ## TODO
+- more responsive design support for controld page and documentation page
+- more responsive design support for control page
 - unit tests for actions and reducers
 - regression tests for loading flow with cypress lib
